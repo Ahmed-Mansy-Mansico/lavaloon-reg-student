@@ -1,0 +1,18 @@
+{
+  "name": "lavaloone",
+  "version": "1.0.0",
+  "description": "Lavaloon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd registration && yarn install",
+    "dev": "cd registration && yarn dev",
+    "build": "cd registration && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/icons-material": "^7.0.2"
+  }
+}
