@@ -1,33 +1,39 @@
-### Lavaloone
+# Lavaloone - Student Registration Portal
 
-Lavaloon
+## Project Overview
+Lavaloone is a student registration portal designed for educational institutions to manage student enrollments efficiently.
 
-### Installation
+## Live Website
+The application is currently hosted at:  
+[https://academy.psc-s.com/registration/student-registration](https://academy.psc-s.com/registration/student-registration)
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+## Screenshot
+![Application Preview](./sc1.jpeg)
 
-```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app lavaloone
-```
+## Features
+- Student registration form
+- Data validation
+- Responsive design
+- Secure submission process
 
-### Contributing
+## Installation
+(Add installation instructions if applicable)
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+## Usage
+(Add usage instructions if applicable)
 
-```bash
-cd apps/lavaloone
-pre-commit install
-```
+## Contributing
+(Add contribution guidelines if applicable)
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
+## License
+(Add license information if applicable)
 
-- ruff
-- eslint
-- prettier
-- pyupgrade
+---
 
-### License
+Note: I've created a more structured README.md file based on the information you provided. You may want to:
+1. Add more details about the project's features and functionality
+2. Include installation/usage instructions if this is a project others might install
+3. Add contribution guidelines if it's open source
+4. Specify license information
 
-mit
+The image reference assumes sc1.jpeg is in the same directory as the README.md file. If it's in a different location, adjust the path accordingly.

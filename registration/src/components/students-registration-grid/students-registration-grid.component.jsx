@@ -1,6 +1,6 @@
 import { Box } from '@mui/material';
 import { DataGrid } from '@mui/x-data-grid';
-import { AddStudentRegistrationButton } from '../../components/add-student-registration/add-student-registration.component';
+import AddStudentRegistrationButton  from '../../components/add-student-registration/add-student-registration.component';
 import { Fragment } from 'react';
 
 
@@ -66,9 +66,7 @@ export default function StudentsRegistrationGrid() {
                     '& .MuiDataGrid-footerContainer': {
                       borderTop: '2px solid #e0e0e0',
                     },
-                  }}
-                  slots={{ toolbar: AddStudentRegistrationButton }}
-        
+                  }}        
                   />
               </Box>
               </>
